@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Favorite Recipe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #808080;
+    }
+
+    h1 {
+      text-align: center;
+      color: green;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    h2, h3, h4 {
+      text-align: center;
+    }
+
+    .centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .nutrition-label {
+      margin-top: 20px;
+      padding-top: 10px;
+    }
+
+    ul, ol {
+      list-style-type: none;
+      padding-left: 10px;
+      border: 1px solid black;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .instructions {
+      margin-bottom: 10px;
+      background-color: #e6e6fa;
+    }
+
+    .boxed-text {
+      border: 2px solid black;
+      padding: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      border: 1px solid black;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th[colspan="2"] {
+      background-color: #ffcccb;
+    }
+
+    th[colspan="2"] + th {
+      background-color: #98fb98;
+    }
+
+    ul {
+      background-color: #e0ffff; 
+    }
+
+    .boxed-text p {
+      background-color: #e6e6fa; 
+    }
+
+    .contact-box {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border: 2px solid black;
+      padding: 10px;
+      background-color: #b0e0e6; /* Baby Blue */
+    }
+
+    .contact-title {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <a href="http://www.fussfreecooking.com/">
+    <h1>Blueberry Donut</h1>
+  </a>
+  <h2>Recipe by FussFreeCooking</h2>
+
+  <h3>Ingredients:</h3>
+  <ul>
+    <li>1+1/2 cups all-purpose flour</li>
+    <li>2 tsps baking powder</li>
+    <li>1/2 cup brown sugar</li>
+    <li>125g (4 ounces) blueberries</li>
+    <li>1 egg</li>
+    <li>3/4 cup milk</li>
+    <li>1/4 cup olive oil plus extra for greasing the doughnut pan</li>
+    <li>1 tsp vanilla extract</li>
+    <li>100g dark chocolate for drizzling</li>
+  </ul>
+
+  <h3>Instructions:</h3>
+  <ol class="instructions">
+    <li>Preheat oven to 200C/392F. Lightly grease the 12 holes doughnut pan with some olive oil.</li>
+    <li>Pass all-purpose flour, baking powder, and brown sugar through a sieve into a large mixing bowl to remove any lumps caused by the brown sugar. Add blueberries into the flour-brown sugar mixture, mix well, and set aside.</li>
+    <li>In a separate bowl, whisk egg, milk, olive oil, and vanilla extract with a fork until well combined. Then slowly pour the wet mixture into the dry mixture while gently mixing the dry and wet ingredients together with a fork until just combined. Do not overmix.</li>
+    <li>Fill doughnut pan with the batter until 3/4 level. The batter quantity yielded 15 doughnuts which means you have to bake the doughnuts in two batches in order to use up all the batter.</li>
+    <li>Bake the doughnuts in the oven for 15 minutes or until they feel firm and spring back when lightly touched.</li>
+    <li>Allow the doughnuts to cool in the pan for 5 minutes before transferring to a plate. Drizzle with chocolate when the doughnuts are almost cool to touch.</li>
+  </ol>
+
+  <div class="centered">
+    <h4 class="nutrition-label">Nutrition Label</h4>
+    <table>
+      <tr>
+        <th colspan="2">Nutritional Information</th>
+        <th>Amount Per Serving</th>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2"><strong>Blueberry Donut</strong></td>
+        <td>Serving Size: 1 donut</td>
+      </tr>
+      <tr>
+        <td>Calories</td>
+      </tr>
+      <tr>
+        <td>Total Fat</td>
+        <td>8g</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>Cholesterol</td>
+        <td colspan="2">25mg</td>
+      </tr>
+      <tr>
+        <td>Total Carbohydrates</td>
+        <td>20g</td>
+        <td>8%</td>
+      </tr>
+      <tr>
+        <td>Protein</td>
+        <td>2g</td>
+        <td>4%</td>
+      </tr>
+    </table>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br> <!-- Add 10 blank lines here -->
+
+  <div class="boxed-text">
+    <p>This Blueberry Donut recipe is my favorite because I'm a huge sucker for donuts, and the combination of blueberries and chocolate is simply irresistible. The recipe provides clear instructions, and the result is moist and delicious donuts that satisfy my sweet tooth.</p>
+
+    <p>For more recipes, you can visit <a href="http://www.fussfreecooking.com/">FussFreeCooking</a>.</p>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact-box">
+    <div class="contact-title">Contact</div>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" value="Joseph Nwoke" required><br><br>
+
+      <label for="email">Email address:</label>
+      <input type="email" id="email" name="email" value="nw1023009@ccbcmd.brightspace.com" required><br><br>
+
+      <label for="favorite-cuisine">Favorite Cuisine:</label>
+      <select id="favorite-cuisine" name="favorite-cuisine" required>
+        <option value="chinese">Chinese</option>
+        <option value="italian">Italian</option>
+        <option value="mexican">Mexican</option>
+        <option value="indian">Indian</option>
+        <!-- Add more cuisine options as needed -->
+      </select><br><br>
+
+      <label>Subscribe to mailing list:</label>
+      <label for="yes">Yes</label>
+      <input type="radio" id="yes" name="subscribe" value="yes" required>
+      <label for="no">No</label>
+      <input type="radio" id="no" name="subscribe" value="no" required><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #808080;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nutrition-label {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 10px;
+  border: 1px solid black;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.instructions {
+  margin-bottom: 10px;
+  background-color: #e6e6fa;
+}
+
+.boxed-text {
+  border: 2px solid black;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th[colspan="2"] {
+  background-color: #ffcccb;
+}
+
+th[colspan="2"] + th {
+  background-color: #98fb98;
+}
+
+ul {
+  background-color: #e0ffff; 
+}
+
+.boxed-text p {
+  background-color: #e6e6fa; 
+}
+
+/* Updated Contact Form Styling */
+.contact-box {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #b0e0e6; /* Baby Blue */
+}
+
+.contact-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
